@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { CountdownTimer } from "@/components/countdown-timer";
+//import { CountdownTimer } from "@/components/countdown-timer";
 
 export default function Home() {
   return (
@@ -11,11 +11,11 @@ export default function Home() {
           Destination Sikkim
         </h1>
         <h2 className="text-xl md:text-2xl lg:text-3xl text-white mb-8">
-          A travel agency coming for all your travel desires in
+          A travel agency coming for all your travel desires across Sikkim
         </h2>
-        <CountdownTimer
+        {/*<CountdownTimer
           targetDate={new Date(Date.now() + 30 * 24 * 24 * 60 * 1000)}
-        />
+        />*/}
       </div>
     </main>
   );

@@ -13,10 +13,10 @@ export default function Home() {
         priority
       />
       <div className="z-10 text-center px-4">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-green-400 mb-4">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-amber-400 mb-4">
           Destination Sikkim
         </h1>
-        <h2 className="text-xl md:text-2xl lg:text-3xl text-white mb-8">
+        <h2 className="text-xl md:text-2xl lg:text-3xl text-white font-bold mb-8">
           A travel agency coming for all your travel desires across Sikkim
         </h2>
       </div>

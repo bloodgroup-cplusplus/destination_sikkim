@@ -1,5 +1,5 @@
 import Image from "next/image";
-import background from "@/photos/background.jpeg";
+import background from "@/photos/background.jpg";
 
 export default function Home() {
   return (
@@ -12,11 +12,11 @@ export default function Home() {
         className="object-cover"
         priority
       />
-      <div className="z-10 text-center px-4">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-amber-400 mb-4">
+      <div className="z-40 text-center px-9 py-10">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-amber-300 antialiased mb-4">
           Destination Sikkim
         </h1>
-        <h2 className="text-xl md:text-2xl lg:text-3xl text-white font-bold mb-8">
+        <h2 className="text-xl md:text-2xl lg:text-3xl text--500 text-blue-300 antialiased placeholder-slate-900 text-center   font-extrabold mb-8">
           A travel agency coming for all your travel desires across Sikkim
         </h2>
       </div>

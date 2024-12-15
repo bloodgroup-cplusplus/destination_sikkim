@@ -13,7 +13,7 @@ export default function Home() {
         priority
       />
       <div className="z-40 text-center px-9 py-10">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-red-500 text-center antialiased mb-4">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-amber-500 text-center antialiased mb-4">
           Destination Sikkim
         </h1>
         <h2 className="text-xl md:text-2xl lg:text-3xl text--500 text-blue-400 antialiased placeholder-slate-900 text-center   font-extrabold mb-8">

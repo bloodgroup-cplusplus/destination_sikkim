@@ -1,5 +1,44 @@
+"use client";
 import Image from "next/image";
 import background from "@/photos/background.jpg";
+import { TypewriterEffect } from "@/components/ui/typewriter-effect";
+
+const words = [
+  {
+    text: "A",
+  },
+  {
+    text: "travel",
+  },
+  {
+    text: "agency",
+  },
+  {
+    text: "coming",
+  },
+  {
+    text: "for",
+  },
+  {
+    text: "all",
+  },
+  {
+    text: "your",
+  },
+  {
+    text: "travel",
+  },
+  {
+    text: "desires",
+  },
+  {
+    text: "across",
+  },
+  {
+    text: "Sikkim",
+    className: "text-blue-500 dark:text-blue-500",
+  },
+];
 
 export default function Home() {
   return (
@@ -17,8 +56,7 @@ export default function Home() {
           Destination Sikkim
         </h1>
         <h2 className="text-xl md:text-2xl lg:text-3xl text--500 text-blue-400 antialiased placeholder-slate-900 text-center   font-extrabold mb-8">
-          <strong> A travel agency</strong> <br></br>
-          for all travel desires across sikkim
+          <TypewriterEffect words={words} />
         </h2>
       </div>
     </main>

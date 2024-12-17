@@ -12,6 +12,10 @@ import ropeway from "@/photos/ropeway.jpg";
 import rumtekmonastry from "@/photos/rumtekmonastry.jpg";
 import zuluk from "@/photos/zuluk.jpg";
 import samduptse from "@/photos/samduptse.jpg";
+import lachung from "@/photos/lachung.jpg";
+import lake from "@/photos/lake.jpg";
+import gurudongmar from "@/photos/gurudongmar.jpg";
+import yak from "@/photos/yak.jpg";
 
 const images = [
   background,
@@ -24,6 +28,10 @@ const images = [
   rumtekmonastry,
   zuluk,
   samduptse,
+  lachung,
+  lake,
+  gurudongmar,
+  yak,
 ];
 
 export default function HeroImageSlider() {

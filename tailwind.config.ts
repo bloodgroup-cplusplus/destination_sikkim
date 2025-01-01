@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
+//import { flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
 
-export default {
+const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -14,5 +15,6 @@ export default {
       },
     },
   },
-  plugins: [],
-} satisfies Config;
+};
+
+export default config;

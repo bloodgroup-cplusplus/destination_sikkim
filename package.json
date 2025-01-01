@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
-    "framer-motion": "^11.14.4",
+    "framer-motion": "^11.15.0",
     "lucide": "^0.468.0",
     "lucide-react": "^0.468.0",
     "motion": "^11.14.4",
@@ -19,7 +20,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tabler": "^1.0.0",
-    "tailwind-merge": "^2.5.5"
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
